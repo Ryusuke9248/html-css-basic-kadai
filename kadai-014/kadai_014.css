@@ -1,0 +1,46 @@
+/*フォントの指定*/
+.google fonts{
+  font-family: 'Josefin Sans', sans-serif;
+ }
+ main{
+   font-family:"Arial", "Meiryo", sans-serif;
+  }
+ 
+  /*フォントサイズの指定*/
+  html{
+   font-size: 20px;
+  }
+  h1{
+   font-size: 2rem;
+  }
+
+  /*フォントカラーの指定*/
+  .skyblue{
+    color:skyblue;
+  }
+  .pink{
+    color: rgb(255, 192, 203)
+  }
+
+  /*テキスト中央寄せ*/
+body{
+  text-align: center;
+}
+  /*文字間隔変更*/
+  h1{
+    letter-spacing: 1.2rem;
+  }
+
+  /*h1への影つけ*/
+  h1{
+    text-shadow:5px 5px 5px gray;
+  }
+
+  /*h1へのlineつけ*/
+  h1{
+    border-bottom: solid 3px rgb(115, 115, 114);
+  }
+  /*basic childを太文字へ*/
+  #basic-child{
+    font-weight: bold;
+  }

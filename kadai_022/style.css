@@ -1,0 +1,46 @@
+h1{
+  margin:0;
+  color: rgb(255,255,255);
+}
+p{
+  margin:0;
+  font-size:20px;
+}
+body{
+  margin:0
+}
+a{
+  font-size:20px;
+}
+header{
+  margin-bottom:20px;
+  background-color:rgb(244, 79, 79);
+  text-align:center;
+}
+mail{
+  margin:10px;
+}
+/* 画像の並びを指定*/
+#parent{
+  display:flex;
+  justify-content:space-around;
+
+}
+.contents{
+  border:solid 3px rgb(238, 204, 204);
+  flex-basis:10%;
+  padding: 10px 15px;
+  margin:20px 0px;
+  text-align: center;
+}
+h2{
+  font-size:25px;
+  border-bottom:dotted 3px rgb(239, 111, 139);
+}
+  h2::before{
+  content:"●";
+  color:rgb(239, 111, 139)
+}
+div p:nth-of-type(2)::first-letter{
+  color:rgb(97, 206, 249)
+}
